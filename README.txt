@@ -1,4 +1,4 @@
-#Grid Game
+#Grid_Game
 
 _________________________❄_HOW_TO_LAUNCH_❄_________________________
 There are 3 play areas, Demo1, Demo2 and Enigma just instantiate the area of choice in the Play class at line 30 and start the program.
