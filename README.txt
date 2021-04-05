@@ -1,33 +1,30 @@
-Ps : ce projet a été fait sur mac et mon partenaire aussi avait un mac, nous n’avions pas pu vérifier si les dialogues restaient dans le cadre pour modifier la police si ce n’était pas le cas.
-
 _________________________❄_HOW_TO_LAUNCH_❄_________________________
-
-Il y a 3 aires de jeu, Demo1, Demo2 et Énigme il suffit d’instancier l’aire de choix dans le Play à la ligne 30 et de lancer le programme.
+There are 3 play areas, Demo1, Demo2 and Enigma just instantiate the area of choice in the Play class at line 30 and start the program.
 
 ___________________________❄_CONTROLS_❄____________________________
 
-Touche du bas : descendre
-Touche du haut : monter
-Touche droite : se diriger vers la droite
-Touche gauche : se diriger vers la gauche
-Espace : « Pause »
-Touche L : Interagir avec un Interactable à distance
+Down key: go down
+Top key: up
+Right key: move right
+Left key: move to the left
+Space: "Pause"
+L key: Interact with a remote Interactable
 
 ___________________________❄_ENIGME_❄____________________________
 
-Énigme est composé de 4 niveaux :
-_______❄_Level1_❄________
--Entrée par la porte 1, rien de spécial dedans.
-_______❄_Level2_❄________
--Entrée par la porte 2, quasiment similaire au level 1 à l’exception d’une pomme ajoutée et que l’on peut récupérer avec la touche L.
-_______❄_Level3_❄________
--Entrée par la porte 3, petite énigme proposée dans l’énoncé, il suffit de marcher sur les buttons de pression (point noir) et de prendre la clef pour pouvoir revenir au LevelSelector, sinon on peut allumer le torche animée, activer les leviers de gauche et droite ou marcher sur la plaque de pression pour faire disparaître les rochers de droite et gauche.
-_______❄_Énigme_❄________
-1ère partie :
-Il faut entrer dans la 4ème porte, vous remarquerez que tout au long d’Énigme, les instructions sont données sous forme de Dialog. Au début il faudra utiliser la potion pour faire apparaitre le fantôme d’un mort. Il faudra ensuite marcher sur les buttons formant un sigma pour libérer le passage du premier rocher, et sur la plaque de pression pour libérer le deuxième passage (5sc pour passer). Le deuxième message du fantôme apparait, il faudra ensuite activer le levier pour ouvrir la porte qui permettra de se téléporter vers l’endroit où se trouve l’épée. Une fois l’épée en main, les monstres apparaissent, il faudra tuer celui de devant la porte avec la touche L, puis reprendre celle-ci pour revenir au labyrinthe. Ensuite il faudra récupérer le bouclier qui sera vers la gauche et se diriger vers le boss en tuant tous les monstres sur le passage de la même manière que le premier. Enfin vous tuez le maitre, vous récupérez la clef et vous traversez la porte qui s’ouvre, puis la porte de la grange pour passer à la deuxième phase.
 
-Ps : notez que sans l’épée et le bouclier on peut quand même accéder au boss, mais le personne meurt(disparait) et on ne peut plus continuer le jeu : une sorte de game over.
+Enigma is composed of 4 levels:
+_______ ❄_Level1_❄ ________
+-Entry through door 1, nothing special inside.
+_______ ❄_Level2_❄ ________
+-Entry through door 2, almost similar to level 1 except for an added apple which can be retrieved with the L key.
+_______ ❄_Level3_❄ ________
+- Enter through door 3, little riddle proposed in the statement, you just have to walk on the pressure buttons (black dot) and take the key to be able to return to the LevelSelector, otherwise you can light the animated torch, activate the levers left and right or walk on the pressure plate to remove rocks from right and left.
+_______ ❄_Enigma_❄ ________
+Part 1 :
+You have to enter the 4th door, you will notice that throughout Enigma, the instructions are given in the form of Dialog. At first you will have to use the potion to make the ghost of a dead man appear. You will then have to walk on the buttons forming a sigma to free the passage of the first rock, and on the pressure plate to free the second passage (5sc to pass). The second message from the ghost appears, you must then activate the lever to open the door which will teleport to the place where the sword is located. Once the sword is in hand, the monsters appear, you will have to kill the one in front of the door with the L key, then take it to return to the labyrinth. Then it will be necessary to recover the shield which will be to the left and go towards the boss by killing all the monsters on the way in the same way as the first. Finally you kill the master, you collect the key and you go through the door which opens, then the door of the barn to go to the second phase.
 
-2ème partie :
-Encore une fois tout est indiqué suivant les instructions (des fois il faudra être sur la case d’arrivée d’une porte pour voir le Dialog). Il faudra d’abord récupérer le casque et l’arc sans quoi le personnage mourra en affrontant le boss comme expliqué précédemment, ensuite on se dirige vers la porte devant la grange, qui mène vers un niveau. Ce niveau contient une pomme et un passage « secret » qui mène directement à côté du boss pour le surprendre, ensuite on l’élimine et l’enfant est sauvé, le jeu prend fin et un message apparait.
+Ps: note that without the sword and the shield you can still access the boss, but the person dies (disappears) and you can no longer continue the game: a kind of game over.
 
+Part 2 :
+Once again everything is indicated according to the instructions (sometimes you will have to be on the arrival square of a door to see the Dialog). You will first have to recover the helmet and the bow, otherwise the character will die facing the boss as explained previously, then we go to the door in front of the barn, which leads to a level. This level contains an apple and a "secret" passage that leads directly next to the boss to surprise him, then he is eliminated and the child is saved, the game ends and a message appears.
