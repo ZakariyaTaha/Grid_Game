@@ -1,6 +1,8 @@
 # Grid_Game
 <br>
 <h3>HOW TO LAUNCH</h3>
+
+You can just run one of the following files on an IDE like Eclipse.
 There are 3 play areas, Demo1, Demo2 and Enigma just instantiate the area of choice in the Play class at line 30 and start the program.
 <br><br>
 
